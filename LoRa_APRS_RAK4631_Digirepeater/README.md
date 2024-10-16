@@ -19,23 +19,25 @@ ____________________________________________________
 
 ## Instructions:
 
+## 0) Mount RAK4631 into RAK19007 module.
+
 ## 1) Prepare the Configuration info: you have to copy two strings into __Serial__ : (A) Digirepeater Configuration and (B) LoRa Configuration. Prepare this two Strings before flashing the board.
 
 A) On the first Reboot (as Digirepeater won't find any configuration) you should enter the following:
 
 "callsign,digiMode,symbol,overlay,comment,latitude,longitude,sendBatteryTelemetry,beaconInternal"
 
-example: "AB1CDE-11,1,#,L,LoRa RAK4630 Test,0.0000000,0.0000000,Y,15"
+example: "AB1CDE-11,1,#,L,RAK4631-Digirepeater,0.0000000,0.0000000,Y,15"
 
-- callsign  = replace with your Valid Ham Callsign (in UpperCase).
-- digiMode  = 1 for "WIDE1-1", 2 for "WIDE2-1"
-- symbol    = # ("#" is recommended)
-- overlay   = L ("L" is recommended)
-- comment   = LoRa RAK4630 Test (don't use any *coma* in comment text)
-- latitude  = in degrees and better to have 7 decimals
-- longitude = in degrees and better to have 7 decimals
-- sendBatteryTelemetry = Y for yes, N for no.
-- beaconInterval = 15 (minutes)
+- callsign             = replace with your Valid Ham Callsign (in UpperCase).
+- digiMode             = 1 for repeating "WIDE1-1", 2 for "WIDE2-n"
+- symbol               = # ("#" is recommended)
+- overlay              = L ("L" is recommended)
+- comment              = RAK4631-Digirepeater (don't use any *coma* in comment text)
+- latitude             = in degrees and better to have 7 decimals
+- longitude            = in degrees and better to have 7 decimals
+- sendBatteryTelemetry = Y ("Y" for yes, "N" for no)
+- beaconInterval       = 15 (minutes)
 
 B) Prepare LoRa Configuration info:
 
