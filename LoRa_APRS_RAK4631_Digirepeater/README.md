@@ -68,7 +68,7 @@ if you want to delete previous configuration , drag "NRF52840_DeleteConfig.uf2" 
 
 - 2024.09.18 Battery Calculations Fix and full Configuration for Station and LoRa settings added.
 - 2024.09.17 Battery Pins correction proposal
-- 2024.09.15 Alpha
+- 2024.09.15 Beta Test Firmware.
 
 ___________________________________________________
 
