@@ -22,11 +22,3 @@ Instructions:
 Go into each of the provided links for downloading .uf2 files and get the configuration instructions for each Firmware installation.
 
 SPONSOR / PAYPAL
-
-
-   
-if you want to delete previous configuration , drag "NRF52840_DeleteConfig.uf2" into the folder/virtual disk when boards is in boot loader mode.
-
-- 2024.09.18 Battery Calculations Fix and full Configuration for Station and LoRa settings added.
-- 2024.09.17 Battery Pins correction proposal
-- 2024.09.15 Alpha
