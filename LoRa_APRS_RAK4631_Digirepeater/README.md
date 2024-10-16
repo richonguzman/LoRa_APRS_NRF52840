@@ -19,45 +19,46 @@ ____________________________________________________
 
 ## Instructions:
 
-1) You have to copy two strings with (A) Station Configuration and (B) LoRa Configuration:
+1) Prepare the Configuration info: you have to copy two strings into __Serial__ : (A) Digirepeater Configuration and (B) LoRa Configuration. Prepare this two Strings before flashing the board.
 
-A) prepare Station Configuration info (As the initial configuration wont find any station_conf file with the configuration you should enter the following one):
+A) On the first Reboot (as Digirepeater won't find any configuration) you should enter the following:
 
-"CALLSIGN,digiMode,symbol,overlay,comment,latitude,longitude,sendBatteryTelemetry,beaconInternal"
+"callsign,digiMode,symbol,overlay,comment,latitude,longitude,sendBatteryTelemetry,beaconInternal"
 
 example: "AB1CDE-11,1,#,L,LoRa RAK4630 Test,0.0000000,0.0000000,Y,15"
 
-- CALLSIGN = Replace with your Valid Ham Callsign
-- digiMode = 1 for WIDE1-1, 2 for WIDE2-1
-- symbol = #
-- overlay = L
-- comment = LoRa RAK4630 Test (donde use coma in comment)
-- latitude = in degrees and better to have 7 decimals
+- callsign  = replace with your Valid Ham Callsign (in UpperCase).
+- digiMode  = 1 for "WIDE1-1", 2 for "WIDE2-1"
+- symbol    = # ("#" is recommended)
+- overlay   = L ("L" is recommended)
+- comment   = LoRa RAK4630 Test (don't use any *coma* in comment text)
+- latitude  = in degrees and better to have 7 decimals
 - longitude = in degrees and better to have 7 decimals
 - sendBatteryTelemetry = Y for yes, N for no.
 - beaconInterval = 15 (minutes)
 
-B) prepare LoRa Configuration info
+B) Prepare LoRa Configuration info:
 
 "Frequency,SpreadingFactor,SignalBandwidth,CodingRate4,Power"
 
 example: "433.775,12,125.0,5,22"
 
-- Frequency = your QRG for LoRa APRS as per your Country Settings
+- Frequency       = your QRG for LoRa APRS as per your Country Settings
 - SpreadingFactor = 7 to 12 as per your Country Settings
 - SignalBandwidth = 125.0 is stardard for all countries.
-- CodingRate4 = 5 to 7 as per your Country Settings
-- Power = 22 (dBm) is max for SX1262 in Rak 4630 Module
+- CodingRate4     = 5 to 7 as per your Country Settings
+- Power           = 22 (dBm) is max for SX1262 in Rak 4630 Module
 
 
+2) Press two times reset button to enter Virtual Disk Bootloader Mode: "RAK4631" external disc should appear in your PC/MAC/Linux Desktop.
 
-2) press two times reset button to enter Virtual Disk bootloader mode: RAK4630 or RAK4631 external disc should appear in your PC/MAC/Linux OS
+3) Drag "firmware.uf2" file into the folder/external disk "RAK4631". It should reboot right away and you should get into any app that let you enter __Serial__ commands (Arduino IDE, VSCODE ...)
 
-3) drag "firmware.uf2" file into the folder/external disk. It should reboot right away and you should get into any app that let you enter serial commands (Arduino IDE, VSCODE ...)
+4) The initial setup will ask you to paste the string sentences created in __(A)__ first and then on another line __(B)__.
 
-4) The initial setup will ask you to paste the string sentences created in (A) first and then on another line (B).
+5) Follow the instructions on __Serial__ info to finish configuration.
 
-5) After the sucess in writing configuration , the station will reboot and start right away.
+6) After the sucess in writing configuration , the station will reboot and start right away.
 
    
 if you want to delete previous configuration , drag "NRF52840_DeleteConfig.uf2" into the folder/virtual disk when boards is in boot loader mode.
