@@ -29,6 +29,7 @@ A) On the first Reboot (as Digirepeater won't find any configuration) you should
 
 example: "AB1CDE-11,1,#,L,RAK4631-Digirepeater,0.0000000,0.0000000,Y,15"
 
+
 - callsign             = replace with your Valid Ham Callsign (in UpperCase).
 - digiMode             = 1 for repeating "WIDE1-1", 2 for "WIDE2-n"
 - symbol               = # ("#" is recommended)

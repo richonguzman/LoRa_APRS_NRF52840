@@ -26,9 +26,10 @@ ____________________________________________________
 
 A) On the first Reboot (as Tracker won't find any configuration) you should enter the following:
 
-"callsign,digiMode,symbol,overlay,comment,latitude,longitude,sendBatteryTelemetry,beaconInternal"
+"callsign,pathType,symbol,overlay,comment,smartBeaconState,smartbeaconType,sendAltitude,sendBatteryTelemetry,bluetoothType"
 
 example: "AB1CDE-7,1,[,/,RAK4631-Tracker,Y,0,Y,Y,0
+
 
 - callsign             = replace with your Valid Ham Callsign (in UpperCase).
 - pathType             = 0 (for nothing) , 1 for "WIDE1-1", 2 for "WIDE1-1,WIDE2-1"
