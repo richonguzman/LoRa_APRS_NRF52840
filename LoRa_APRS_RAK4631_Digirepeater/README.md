@@ -19,7 +19,7 @@ ____________________________________________________
 
 ## Instructions:
 
-1) Prepare the Configuration info: you have to copy two strings into __Serial__ : (A) Digirepeater Configuration and (B) LoRa Configuration. Prepare this two Strings before flashing the board.
+## 1) Prepare the Configuration info: you have to copy two strings into __Serial__ : (A) Digirepeater Configuration and (B) LoRa Configuration. Prepare this two Strings before flashing the board.
 
 A) On the first Reboot (as Digirepeater won't find any configuration) you should enter the following:
 
@@ -50,15 +50,15 @@ example: "433.775,12,125.0,5,22"
 - Power           = 22 (dBm) is max for SX1262 in Rak 4630 Module
 
 
-2) Press two times reset button to enter Virtual Disk Bootloader Mode: "RAK4631" external disc should appear in your PC/MAC/Linux Desktop.
+## 2) Press two times reset button to enter Virtual Disk Bootloader Mode: "RAK4631" external disc should appear in your PC/MAC/Linux Desktop.
 
-3) Drag "firmware.uf2" file into the folder/external disk "RAK4631". It should reboot right away and you should get into any app that let you enter __Serial__ commands (Arduino IDE, VSCODE ...)
+## 3) Drag "firmware.uf2" file into the folder/external disk "RAK4631". It should reboot right away and you should get into any app that let you enter __Serial__ commands (Arduino IDE, VSCODE ...)
 
-4) The initial setup will ask you to paste the string sentences created in __(A)__ first and then on another line __(B)__.
+## 4) The initial setup will ask you to paste the string sentences created in __(A)__ first and then on another line __(B)__.
 
-5) Follow the instructions on __Serial__ info to finish configuration.
+## 5) Follow the instructions on __Serial__ info to finish configuration.
 
-6) After the sucess in writing configuration , the station will reboot and start right away.
+## 6) After the sucess in writing configuration , the station will reboot and start right away.
 
    
 if you want to delete previous configuration , drag "NRF52840_DeleteConfig.uf2" into the folder/virtual disk when boards is in boot loader mode.
