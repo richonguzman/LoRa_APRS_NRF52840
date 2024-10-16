@@ -20,7 +20,7 @@ ____________________________________________________
 
 ## Instructions:
 
-## 0) Mount RAK4631 into RAK19007 module. Mount RAK12500 into RAK19007 Module (SLOT A).
+## 0) Mount RAK4631 into RAK19007. Mount RAK12500 into RAK19007 (SLOT A).
 
 ## 1) Prepare the Configuration info: you have to copy two strings into __Serial__ : (A) Tracker Configuration and (B) LoRa Configuration. Prepare this two Strings before flashing the board.
 
