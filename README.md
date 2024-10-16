@@ -26,5 +26,3 @@ ____________________________________________________
 Instructions:
 
 Go into each of the provided links for downloading .uf2 files and get the configuration instructions for each Firmware installation.
-
-SPONSOR / PAYPAL
