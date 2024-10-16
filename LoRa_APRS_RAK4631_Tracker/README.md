@@ -57,7 +57,7 @@ example: 433.775,12,125.0,5,22
 
 ## 2) Press two times reset button to enter Virtual Disk Bootloader Mode: "RAK4631" external disc should appear in your PC/MAC/Linux Desktop.
 
-## 3) Drag "firmware.uf2" file into the folder/external disk "RAK4631". It should reboot right away and you should get into any app that let you enter __Serial__ commands (Arduino IDE, VSCODE ...)
+## 3) Drag "firmware_RAK4631_tracker.uf2" file into the folder/external disk "RAK4631". It should reboot right away and you should get into any app that let you enter __Serial__ commands (Arduino IDE, VSCODE ...)
 
 ## 4) The initial setup will ask you to paste the string sentences created in __(A)__ first and then on another line __(B)__.
 
