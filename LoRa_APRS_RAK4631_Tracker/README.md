@@ -26,9 +26,9 @@ ____________________________________________________
 
 A) On the first Reboot (as Tracker won't find any configuration) you should enter the following:
 
-example      : callsign,pathType,symbol,overlay,comment,smartBeaconState,smartbeaconType,sendAltitude,sendBatteryTelemetry,bluetoothType
+callsign,pathType,symbol,overlay,comment,smartBeaconState,smartbeaconType,sendAltitude,sendBatteryTelemetry,bluetoothType
 
-example(Real): AB1CDE-7,1,[,/,RAK4631-Tracker,Y,0,Y,Y,0
+example: AB1CDE-7,1,[,/,RAK4631-Tracker,Y,0,Y,Y,0
 
 
 - callsign             = replace with your Valid Ham Callsign (in UpperCase).
@@ -44,9 +44,9 @@ example(Real): AB1CDE-7,1,[,/,RAK4631-Tracker,Y,0,Y,Y,0
 
 B) Prepare LoRa Configuration info:
 
-example      : Frequency,SpreadingFactor,SignalBandwidth,CodingRate4,Power
+Frequency,SpreadingFactor,SignalBandwidth,CodingRate4,Power
 
-example(Real): 433.775,12,125.0,5,22
+example: 433.775,12,125.0,5,22
 
 - Frequency       = your QRG for LoRa APRS as per your Country Settings
 - SpreadingFactor = 7 to 12 as per your Country Settings

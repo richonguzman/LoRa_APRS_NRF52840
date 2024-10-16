@@ -25,9 +25,9 @@ ____________________________________________________
 
 A) On the first Reboot (as Digirepeater won't find any configuration) you should enter the following:
 
-example      : callsign,digiMode,symbol,overlay,comment,latitude,longitude,sendBatteryTelemetry,beaconInternal
+callsign,digiMode,symbol,overlay,comment,latitude,longitude,sendBatteryTelemetry,beaconInternal
 
-example(Real): AB1CDE-11,1,#,L,RAK4631-Digirepeater,0.0000000,0.0000000,Y,15
+example: AB1CDE-11,1,#,L,RAK4631-Digirepeater,0.0000000,0.0000000,Y,15
 
 
 - callsign             = replace with your Valid Ham Callsign (in UpperCase).
@@ -42,9 +42,9 @@ example(Real): AB1CDE-11,1,#,L,RAK4631-Digirepeater,0.0000000,0.0000000,Y,15
 
 B) Prepare LoRa Configuration info:
 
-example      : Frequency,SpreadingFactor,SignalBandwidth,CodingRate4,Power
+Frequency,SpreadingFactor,SignalBandwidth,CodingRate4,Power
 
-example(Real): 433.775,12,125.0,5,22
+example: 433.775,12,125.0,5,22
 
 - Frequency       = your QRG for LoRa APRS as per your Country Settings
 - SpreadingFactor = 7 to 12 as per your Country Settings
