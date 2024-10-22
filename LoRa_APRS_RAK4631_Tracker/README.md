@@ -8,7 +8,7 @@
 ____________________________________________________
 
 (Afiliated Link for _RAK Wireless modules_)
-- WisBlock Base (RAK19007)
+- WisBlock Base (RAK19007) or (RAK19003)
 - Nordic NRF52840 Module (RAK4631 (arduino))
 - U-blox ZOE-M8Q (RAK12500)
 
@@ -20,7 +20,7 @@ ____________________________________________________
 
 ## Instructions:
 
-## 0) Mount RAK4631 into RAK19007. Mount RAK12500 into RAK19007 (SLOT A).
+## 0) Mount RAK4631 into RAK19007. Mount RAK12500 into RAK19007 (SLOT A) or RAK19003 (SLOT C).
 
 ## 1) Prepare the Configuration info: you have to copy two strings into __Serial__ : (A) Tracker Configuration and (B) LoRa Configuration. Prepare this two Strings before flashing the board.
 
