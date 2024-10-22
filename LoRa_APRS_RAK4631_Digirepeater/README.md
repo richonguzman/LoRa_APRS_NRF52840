@@ -8,7 +8,7 @@
 ____________________________________________________
 
 (Afiliated Link for _RAK Wireless modules_)
-- WisBlock Base (RAK19007)
+- WisBlock Base (RAK19007) or (RAK19003)
 - Nordic NRF52840 Module (RAK4631 (arduino))
 
 
@@ -19,7 +19,7 @@ ____________________________________________________
 
 ## Instructions:
 
-## 0) Mount RAK4631 into RAK19007s.
+## 0) Mount RAK4631 into RAK19007 (or RAK19003).
 
 ## 1) Prepare the Configuration info: you have to copy two strings into __Serial__ : (A) Digirepeater Configuration and (B) LoRa Configuration. Prepare this two Strings before flashing the board.
 
