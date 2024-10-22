@@ -1,8 +1,8 @@
 # LoRa APRS Firmware for NRF52840 based boards.
 
-[LoRa APRS RAK4631 Digireater](https://github.com/richonguzman/LoRa_APRS_NRF52840/tree/main/LoRa_APRS_RAK4631_Digirepeater) with @RAKWireless  (WisBlock RAK19007 + RAK4631 (Arduino))
+[LoRa APRS RAK4631 Digireater](https://github.com/richonguzman/LoRa_APRS_NRF52840/tree/main/LoRa_APRS_RAK4631_Digirepeater) with @RAKWireless  (WisBlock RAK19007 or RAK19003 + RAK4631 (Arduino))
 
-[LoRa APRS RAK4631 Tracker](https://github.com/richonguzman/LoRa_APRS_NRF52840/tree/main/LoRa_APRS_RAK4631_Tracker) with @RAKWireless (WisBlock RAK19007 + RAK4631 (Arduino) + RAK12500 GPS)
+[LoRa APRS RAK4631 Tracker](https://github.com/richonguzman/LoRa_APRS_NRF52840/tree/main/LoRa_APRS_RAK4631_Tracker) with @RAKWireless (WisBlock RAK19007 or RAK19003 + RAK4631 (Arduino) + RAK12500 GPS)
 
 
 ## You can support this project to continue to grow:
@@ -13,7 +13,7 @@
 ____________________________________________________
 
 (Afiliated Link for _RAK Wireless modules_)
-- WisBlock Base (RAK19007)
+- WisBlock Base (RAK19007) or also (RAK19003)
 - Nordic NRF52840 Module (RAK4631 (arduino))
 - U-blox ZOE-M8Q (RAK12500
 
