@@ -39,7 +39,7 @@ example: AB1CDE-11,1,#,L,RAK4631-Digirepeater,0.0000000,0.0000000,Y,15,Y
 - longitude            = in degrees and better to have 7 decimals
 - sendBatteryTelemetry = Y ("Y" for yes, "N" for no)
 - beaconInterval       = 15 (minutes)
-- ultraEcoMode         = Y ("Y" for yes, "N" for no) (This makes the board sleep until LoRa Packet Rx using just 7mA at idle instead of 13,4mA)
+- ultraEcoMode         = Y ("Y" for yes, "N" for no) (This makes the board sleep until LoRa Packet Rx using just 7mA at idle instead of 13.4mA)
 
 B) Prepare LoRa Configuration info:
 
