@@ -52,7 +52,7 @@ example: 433.775,12,125.0,5,22
 - SpreadingFactor = 7 to 12 as per your Country Settings
 - SignalBandwidth = 125.0 is stardard for all countries.
 - CodingRate4     = 5 to 7 as per your Country Settings
-- Power           = 22 (dBm) is max for SX1262 in Rak 4630 Module
+- Power           = 22 (dBm) is max for SX1262 in Rak 4631 Module
 
 
 ## 2) Press two times reset button to enter Virtual Disk Bootloader Mode: "RAK4631" external disc should appear in your PC/MAC/Linux Desktop.
