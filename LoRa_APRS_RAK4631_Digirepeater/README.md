@@ -25,9 +25,9 @@ ____________________________________________________
 
 A) On the first Reboot (as Digirepeater won't find any configuration) you should enter the following:
 
-callsign,digiMode,symbol,overlay,comment,latitude,longitude,sendBatteryTelemetry,beaconInternal
+callsign,digiMode,symbol,overlay,comment,latitude,longitude,sendBatteryTelemetry,beaconInternal,ultraEcoMode
 
-example: AB1CDE-11,1,#,L,RAK4631-Digirepeater,0.0000000,0.0000000,Y,15
+example: AB1CDE-11,1,#,L,RAK4631-Digirepeater,0.0000000,0.0000000,Y,15,Y
 
 
 - callsign             = replace with your Valid Ham Callsign (in UpperCase).
@@ -39,6 +39,7 @@ example: AB1CDE-11,1,#,L,RAK4631-Digirepeater,0.0000000,0.0000000,Y,15
 - longitude            = in degrees and better to have 7 decimals
 - sendBatteryTelemetry = Y ("Y" for yes, "N" for no)
 - beaconInterval       = 15 (minutes)
+- ultraEcoMode         = Y ("Y" for yes, "N" for no) (This makes the board sleep until LoRa Packet Rx using just 7mA at idle instead of 13,4mA)
 
 B) Prepare LoRa Configuration info:
 
@@ -50,7 +51,7 @@ example: 433.775,12,125.0,5,22
 - SpreadingFactor = 7 to 12 as per your Country Settings
 - SignalBandwidth = 125.0 is stardard for all countries.
 - CodingRate4     = 5 to 7 as per your Country Settings
-- Power           = 22 (dBm) is max for SX1262 in Rak 4630 Module
+- Power           = 22 (dBm) is max for SX1262 in Rak 4631 Module
 
 
 ## 2) Press two times reset button to enter Virtual Disk Bootloader Mode: "RAK4631" external disc should appear in your PC/MAC/Linux Desktop.
@@ -66,6 +67,7 @@ example: 433.775,12,125.0,5,22
    
 if you want to delete previous configuration , drag "NRF52840_DeleteConfig.uf2" into the folder/virtual disk when boards is in boot loader mode.
 
+- 2024.10.24 Ultra EcoMode added (uses 7mA at idle waiting for LoRa Packet instead of 13.4mA when not sleeping).
 - 2024.10.16 Code improved and minor bugs.
 - 2024.09.18 Battery Calculations Fix and full Configuration for Station and LoRa settings added.
 - 2024.09.17 Battery Pins correction proposal
