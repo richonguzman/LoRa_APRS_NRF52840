@@ -1,6 +1,6 @@
 # LoRa APRS Firmware for NRF52840 based boards.
 
-[LoRa APRS RAK4631 Digipeater](https://github.com/richonguzman/LoRa_APRS_NRF52840/tree/main/LoRa_APRS_RAK4631_Digipeater) with @RAKWireless  (WisBlock RAK19007 or RAK19003 + RAK4631 (Arduino))
+[LoRa APRS RAK4631 Digipeater](https://github.com/richonguzman/LoRa_APRS_NRF52840/tree/main/LoRa_APRS_RAK4631_Digirepeater) with @RAKWireless  (WisBlock RAK19007 or RAK19003 + RAK4631 (Arduino))
 
 [LoRa APRS RAK4631 Tracker](https://github.com/richonguzman/LoRa_APRS_NRF52840/tree/main/LoRa_APRS_RAK4631_Tracker) with @RAKWireless (WisBlock RAK19007 or RAK19003 + RAK4631 (Arduino) + RAK12500 GPS)
 
