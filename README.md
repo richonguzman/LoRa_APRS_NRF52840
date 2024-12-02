@@ -1,5 +1,7 @@
 # LoRa APRS Firmware for NRF52840 based boards.
 
+[LoRa APRS Tracker T-Echo](https://github.com/richonguzman/LoRa_APRS_NRF52840/tree/main/LoRa_APRS_Tracker_T_Echo) with LILYGO T-Echo
+
 [LoRa APRS RAK4631 Tracker](https://github.com/richonguzman/LoRa_APRS_NRF52840/tree/main/LoRa_APRS_RAK4631_Tracker) with @RAKWireless (WisBlock RAK19007 or RAK19003 + RAK4631 (Arduino) + RAK12500 GPS)
 
 [LoRa APRS RAK4631 Digipeater](https://github.com/richonguzman/LoRa_APRS_NRF52840/tree/main/LoRa_APRS_RAK4631_Digipeater) with @RAKWireless  (WisBlock RAK19007 or RAK19003 + RAK4631 (Arduino) + (OPTIONAL) RAK1906 BME680 Sensor)
@@ -12,7 +14,13 @@
 
 ____________________________________________________
 
-(Afiliated Link for _RAK Wireless modules_)
+(Afiliated Links:)
+
+for _LILYGO T-Echo_:
+[Aliexpress](https://s.click.aliexpress.com/e/_DmcgSyp) , [Lilygo](https://www.lilygo.cc/products/t-echo?bg_ref=M1lDRSwoKN)
+
+
+for _RAK Wireless modules_:
 - WisBlock Base (RAK19007) or also (RAK19003)
 - Nordic NRF52840 Module (RAK4631 (arduino))
 - U-blox ZOE-M8Q (RAK12500)
