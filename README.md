@@ -23,9 +23,10 @@ use this [link](https://url887.kickbooster.me/ls/click?upn=u001.rQqRChuldMyo9N3m
 
 ____________________________________________________
 
-# Hope You Enjoy this, 73! CA2RXU, Valparaiso, Chile
-
-
 Instructions:
 
 Go into each of the provided links for downloading .uf2 files and get the configuration instructions for each Firmware installation.
+
+____________________________________________________
+
+# Hope You Enjoy this, 73! CA2RXU, Valparaiso, Chile
