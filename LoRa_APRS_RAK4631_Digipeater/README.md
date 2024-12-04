@@ -28,7 +28,7 @@ ____________________________________________________
 
 A) On the first Reboot (as Digipeater won't find any configuration) you should enter the following:
 
-callsign,digiMode,symbol,overlay,comment,latitude,longitude,sendBatteryTelemetry,beaconInternal,ultraEcoMode
+callsign,digiMode,symbol,overlay,comment,latitude,longitude,sendBatteryTelemetry,beaconInternal,ultraEcoMode,wxSensorActive
 
 example: AB1CDE-11,1,#,L,RAK4631-Digipeater,0.0000000,0.0000000,Y,15,Y,N
 
