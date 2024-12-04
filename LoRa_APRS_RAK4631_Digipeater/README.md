@@ -74,7 +74,7 @@ example: 433.775,12,125.0,5,22
    
 if you want to delete previous configuration , drag "NRF52840_DeleteConfig.uf2" into the folder/virtual disk when boards is in boot loader mode.
 
-- 2024.11.02 Added RAK1906 BME680 Sensor support.
+- 2024.11.04 Added RAK1906 BME680 Sensor support.
 - 2024.10.24 Ultra EcoMode added (uses 7mA at idle waiting for LoRa Packet instead of 13.4mA when not sleeping).
 - 2024.10.16 Code improved and minor bugs.
 - 2024.09.18 Battery Calculations Fix and full Configuration for Station and LoRa settings added.
