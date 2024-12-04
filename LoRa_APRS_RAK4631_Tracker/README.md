@@ -68,6 +68,7 @@ example: 433.775,12,125.0,5,22
    
 if you want to delete previous configuration , drag "NRF52840_DeleteConfig.uf2" into the folder/virtual disk when boards is in boot loader mode.
 
+- 2024.12.04 Stable Firmware.
 - 2024.10.16 Beta Test Firmware.
 
 ___________________________________________________
