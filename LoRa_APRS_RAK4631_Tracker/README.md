@@ -40,7 +40,7 @@ example: AB1CDE-7,1,[,/,RAK4631-Tracker,Y,0,Y,Y,0
 - smartbeaconType      = 0 (0 is slow speed station, 1 is mid, 2 is fast)
 - sendAltitude         = Y ("Y" sends encoded Altitude, "N" sends encoded Speed + Course)
 - sendBatteryTelemetry = Y ("Y" for yes, "N" for no)
-- bluetoothType        = 0 (0 is OFF, 1 is BLE iPhone, 2 is BLE Android) ( SOON TO BE AVAILABLE! )
+- bluetoothType        = 0 (0 is OFF, 1 is ON (only for iPhone, Android ?is on the works?)
 
 B) Prepare LoRa Configuration info:
 
@@ -68,6 +68,7 @@ example: 433.775,12,125.0,5,22
    
 if you want to delete previous configuration , drag "NRF52840_DeleteConfig.uf2" into the folder/virtual disk when boards is in boot loader mode.
 
+- 2025.02.27 BLE Support Added: iPhone APRS.fi App working / Android should be comming eventually.
 - 2025.01.10 SSD1306 OLED screen support added over I2C connection.
 - 2025.01.07 APRSPacketLib added and (Green)Led as GPS fix(normal use) notification.
 - 2024.12.04 Stable Firmware.
