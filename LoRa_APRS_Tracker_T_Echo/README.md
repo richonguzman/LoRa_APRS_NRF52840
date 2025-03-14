@@ -61,6 +61,7 @@ example: 433.775,12,125.0,5,22
    
 if you want to delete previous configuration , drag "NRF52840_DeleteConfig.uf2" into the folder/virtual disk when boards is in boot loader mode.
 
+- 2025.02.27 BLE Support Added: iPhone APRS.fi App working / Android should be comming eventually.
 - 2024.11.02 Beta Test Firmware.
 
 ___________________________________________________
