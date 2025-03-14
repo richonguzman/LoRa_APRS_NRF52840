@@ -33,7 +33,7 @@ example: AB1CDE-7,1,[,/,T-ECHO-Tracker,Y,0,Y,Y,0
 - smartbeaconType      = 0 (0 is slow speed station, 1 is mid, 2 is fast)
 - sendAltitude         = Y ("Y" sends encoded Altitude, "N" sends encoded Speed + Course)
 - sendBatteryTelemetry = Y ("Y" for yes, "N" for no)
-- bluetoothType        = 0 (0 is OFF, 1 is BLE iPhone, 2 is BLE Android) ( SOON TO BE AVAILABLE! )
+- bluetoothType        = 0 (0 is OFF, 1 is ON (only for iPhone, Android ?is on the works?)
 
 B) Prepare LoRa Configuration info:
 
