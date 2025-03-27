@@ -6,6 +6,9 @@
 
 [LoRa APRS RAK4631 Digipeater](https://github.com/richonguzman/LoRa_APRS_NRF52840/tree/main/LoRa_APRS_RAK4631_Digipeater) with @RAKWireless  (WisBlock RAK19007 or RAK19003 + RAK4631 (Arduino) + (OPTIONAL) RAK1906 BME680 Sensor)
 
+[LoRa APRS WishMesh LITE v1 Digipeater](https://github.com/richonguzman/LoRa_APRS_NRF52840/tree/main/LoRa_APRS_MeshGate_LITE_v1_Digipeater) with WishMesh LITE V1 (with BME280 on board)
+
+
 
 ## You can support this project to continue to grow:
 
