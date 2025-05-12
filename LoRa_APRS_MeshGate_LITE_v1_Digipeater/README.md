@@ -60,6 +60,7 @@ example: 433.775,12,125.0,5,22
    
 if you want to delete previous configuration , drag "NRF52840_DeleteConfig.uf2" into the folder/virtual disk when boards is in boot loader mode.
 
+- 2025.05.12 Ultra EcoMode update, Full LoRa Power correction, Wx info even with Ultra EcoMode enabled.
 - 2025.03.27 First Version of MeshGate LITE V1 Digipeater.
 
 ___________________________________________________
