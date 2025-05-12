@@ -45,7 +45,6 @@ example: AB1CDE-11,1,#,L,RAK4631-Digipeater,0.0000000,0.0000000,Y,15,Y,N
 - wxSensorActive        = N ("Y" for yes, "N" for no) (This enable BME680 Module and send Wx Telemetry Data: Temperature, Humidity, Pressure)
 
 NOTE: if "wxSensorActive" is "Y" :
-- RAK Module won't enter into ultraEcoMode as the BME680 would need the board to stay awake.
 - Battery Voltage won't be sended in encoded Telemetry (as aprs-webpages wont process Battery encoded Telemetry in the same Wx Telemetry Packet.)
 
 B) Prepare LoRa Configuration info:
