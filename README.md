@@ -10,11 +10,11 @@
 
 [LoRa APRS RAK4631 Digipeater](https://github.com/richonguzman/LoRa_APRS_NRF52840/tree/main/LoRa_APRS_RAK4631_Digipeater) with @RAKWireless  (WisBlock RAK19007 or RAK19003 + RAK4631 (Arduino) + (OPTIONAL) RAK1906 BME680 Sensor)
 
-[LoRa APRS WishMesh LITE v1 Digipeater](https://github.com/richonguzman/LoRa_APRS_NRF52840/tree/main/LoRa_APRS_MeshGate_LITE_v1_Digipeater) with WishMesh LITE V1 (with BME280 on board)
+[LoRa APRS WishMesh LITE v1 Digipeater](https://github.com/richonguzman/LoRa_APRS_NRF52840/tree/main/LoRa_APRS_MeshGate_LITE_v1_Digipeater) (with BME280 on board)
 
-[LoRa APRS HELTEC_MeshNode_T114 Digipeater](https://github.com/richonguzman/LoRa_APRS_NRF52840/tree/main/LoRa_APRS_HELTEC_MESHNODE_T114_Digipeater) with HELTEC MeshNode T114 (with BME280 on board)
+[LoRa APRS HELTEC MeshNode T114 Digipeater](https://github.com/richonguzman/LoRa_APRS_NRF52840/tree/main/LoRa_APRS_HELTEC_MeshNode_T114_Digipeater) (with BME280 on board)
 
-[LoRa APRS FAKETEC_V3 Digipeater](https://github.com/richonguzman/LoRa_APRS_NRF52840/tree/main/LoRa_APRS_FAKETEC_Digipeater) with FakeTec V3 + Heltec SX1262
+[LoRa APRS FAKETEC V3 Digipeater](https://github.com/richonguzman/LoRa_APRS_NRF52840/tree/main/LoRa_APRS_FAKETEC_Digipeater) with Heltec SX1262 LoRa Module.
 
 
 
