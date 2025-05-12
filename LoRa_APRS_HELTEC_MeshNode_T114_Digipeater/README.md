@@ -1,4 +1,4 @@
-# LoRa APRS Digipeater for MeshGate LITE v1
+# LoRa APRS Digipeater for HELTEC MeshNode T114
 
 ## You can support this project to continue to grow:
 
@@ -16,13 +16,13 @@ A) On the first Reboot (as Digipeater won't find any configuration) you should e
 
 callsign,digiMode,symbol,overlay,comment,latitude,longitude,sendBatteryTelemetry,beaconInternal,ultraEcoMode,wxSensorActive
 
-example: AB1CDE-11,1,#,L,MeshGate-Digipeater,0.0000000,0.0000000,Y,15,Y,N
+example: AB1CDE-11,1,#,L,T114-Digipeater,0.0000000,0.0000000,Y,15,Y,N
 
 - callsign              = replace with your Valid Ham Callsign (in UpperCase).
 - digiMode              = 1 for repeating "WIDE1-1", 2 for "WIDE2-n"
 - symbol                = # ("#" is recommended)
 - overlay               = L ("L" is recommended)
-- comment               = RAK4631-Digipeater (don't use any *coma* in comment text)
+- comment               = T114-Digipeater (don't use any *coma* in comment text)
 - latitude              = in degrees and better to have 7 decimals
 - longitude             = in degrees and better to have 7 decimals
 - sendBatteryTelemetry  = Y ("Y" for yes, "N" for no)
@@ -31,7 +31,6 @@ example: AB1CDE-11,1,#,L,MeshGate-Digipeater,0.0000000,0.0000000,Y,15,Y,N
 - wxSensorActive        = N ("Y" for yes, "N" for no) (This enable BME280 Module and send Wx Telemetry Data: Temperature, Humidity, Pressure)
 
 NOTE: if "wxSensorActive" is "Y" :
-- RAK Module won't enter into ultraEcoMode as the BME680 would need the board to stay awake.
 - Battery Voltage won't be sended in encoded Telemetry (as aprs-webpages wont process Battery encoded Telemetry in the same Wx Telemetry Packet.)
 
 B) Prepare LoRa Configuration info:
@@ -49,7 +48,7 @@ example: 433.775,12,125.0,5,22
 
 ## 1) Press two times reset button to enter Virtual Disk Bootloader Mode: "RAK4631" external disc should appear in your PC/MAC/Linux Desktop.
 
-## 2) Drag "firmware_MeshGate_LITE_v1_digipeater.uf2" file into the folder/external disk "RAK4631". It should reboot right away and you should get into any app that let you enter __Serial__ commands (Arduino IDE, VSCODE ...)
+## 2) Drag "firmware_HELTEC_MESHNODE_T114_digipeater.uf2" file into the folder/external disk "HELTEC". It should reboot right away and you should get into any app that let you enter __Serial__ commands (Arduino IDE, VSCODE ...)
 
 ## 3) The initial setup will ask you to paste the string sentences created in __(A)__ first and then on another line __(B)__.
 
@@ -60,7 +59,7 @@ example: 433.775,12,125.0,5,22
    
 if you want to delete previous configuration , drag "NRF52840_DeleteConfig.uf2" into the folder/virtual disk when boards is in boot loader mode.
 
-- 2025.03.27 First Version of MeshGate LITE V1 Digipeater.
+- 2025.05.12 First Beta Version for HELTEC MeshNode T114 Digipeater with Ultra EcoMode.
 
 ___________________________________________________
 
