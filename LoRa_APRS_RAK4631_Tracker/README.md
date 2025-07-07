@@ -68,6 +68,7 @@ example: 433.775,12,125.0,5,22
    
 if you want to delete previous configuration , drag "NRF52840_DeleteConfig.uf2" into the folder/virtual disk when boards is in boot loader mode.
 
+- 2025-07-07 (DateVersion format change) Fixed TXCO for RAK 4631 Modules.
 - 2025.02.27 BLE Support Added: iPhone APRS.fi App working / Android should be comming eventually.
 - 2025.01.10 SSD1306 OLED screen support added over I2C connection.
 - 2025.01.07 APRSPacketLib added and (Green)Led as GPS fix(normal use) notification.
