@@ -73,6 +73,7 @@ example: 433.775,12,125.0,5,22
    
 if you want to delete previous configuration , drag "NRF52840_DeleteConfig.uf2" into the folder/virtual disk when boards is in boot loader mode.
 
+- 2025-07-07 (DateVersion format change) Corrected TXCO for RAK4631 board.
 - 2025.05.12 Now WX sensor works with or without Ultra EcoMode.
 - 2025.03.27 Ultra EcoMode sleeping corrections.
 - 2024.11.04 Added RAK1906 BME680 Sensor support.
