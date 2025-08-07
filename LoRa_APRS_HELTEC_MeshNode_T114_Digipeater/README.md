@@ -46,9 +46,9 @@ example: 433.775,12,125.0,5,22
 - Power           = 22 (dBm) is max for SX1262 Module.
 
 
-## 1) Press two times reset button to enter Virtual Disk Bootloader Mode: "HELTEC" external disc should appear in your PC/MAC/Linux Desktop.
+## 1) Press two times reset button to enter Virtual Disk Bootloader Mode: "HELTEC" or "HTxxx" external disc should appear in your PC/MAC/Linux Desktop.
 
-## 2) Drag "firmware_HELTEC_MESHNODE_T114_digipeater.uf2" file into the folder/external disk "HELTEC". It should reboot right away and you should get into any app that let you enter __Serial__ commands (Arduino IDE, VSCODE ...)
+## 2) Drag "firmware_HELTEC_MESHNODE_T114_digipeater.uf2" file into the folder/external disk "HELTEC" or "HTxxxx". It should reboot right away and you should get into any app that let you enter __Serial__ commands (Arduino IDE, VSCODE ...)
 
 ## 3) The initial setup will ask you to paste the string sentences created in __(A)__ first and then on another line __(B)__.
 
